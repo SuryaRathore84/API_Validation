@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="6956" started-at="2022-08-04T15:49:30Z" finished-at="2022-08-04T15:49:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6956" started-at="2022-08-04T15:49:30Z" finished-at="2022-08-04T15:49:37Z">
+      <class name="testscripts.api.TestClassRestAssured">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515]" name="beforeSuite" is-config="true" duration-ms="459" started-at="2022-08-04T21:19:30Z" finished-at="2022-08-04T21:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-08-04T21:19:30Z" finished-at="2022-08-04T21:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.api.TestClassRestAssured.assurityApiTest() throws com.fasterxml.jackson.core.JsonParseException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="assurityApiTest()[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515]" name="assurityApiTest" duration-ms="6218" started-at="2022-08-04T21:19:30Z" finished-at="2022-08-04T21:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assurityApiTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515]" name="afterMethod" is-config="true" duration-ms="709" started-at="2022-08-04T21:19:36Z" finished-at="2022-08-04T21:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assurityApiTest status=SUCCESS method=TestClassRestAssured.assurityApiTest()[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testscripts.api.TestClassRestAssured@14c5515]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-08-04T21:19:37Z" finished-at="2022-08-04T21:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testscripts.api.TestClassRestAssured -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
