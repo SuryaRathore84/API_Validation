@@ -5,12 +5,9 @@ package config;
 /**
 
 * Generic exception from Framework. Will be utilized for failures that are
-
 * generated from tests/functions.
-
 *
-
- * @author srathore
+* @author srathore
 
 */
 
